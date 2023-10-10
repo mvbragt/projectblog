@@ -1,8 +1,11 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 600px 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     grid-template-areas:
+        'header header header'
+        'header header header'
+        'header header header'
         'header header header'
         'navBar navBar navBar'
         'left-sidebar main-content right-sidebar'
@@ -12,6 +15,8 @@
 .header {
     grid-area: header;
     background: url("images/Screenshot 2023-10-09 at 14.25.09.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navBar {
