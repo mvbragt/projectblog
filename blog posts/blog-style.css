@@ -2,19 +2,24 @@
 
 .blog-grid{
     display: grid;
-    justify-content: space-evenly;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 1fr;
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-areas:
-    "card card card scroll"
+    "ls cardList cardList scroll"
+}
+
+.card-list {
+    grid-area: cardList;
+    list-style-type: none;
 }
 
 .card {
-    grid-area: 1/2/1/4;
     border-radius: 25px;
     background: #898A84;
     padding: 20px;
     height: 150px;
+    margin: 10px;
+
 }
 
 .scroll {
