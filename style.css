@@ -23,12 +23,12 @@
 .navBar {
     grid-area: navBar;
     border-bottom: 3px solid #50584C;
+    height: max-content;
 }
 
 .content {
     grid-area: main;
     text-align: center;
-    background-color: #898A84;
 }
 
 .left-sidebar {
