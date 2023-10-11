@@ -1,7 +1,6 @@
-/*.body {*/
-/*    padding-left: 200px;*/
-/*    padding-right: 200px;*/
-/*}*/
+.body {
+    font-family: Abel;
+}
 .container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -53,7 +52,6 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: white;
-    font-family: Abel;
     text-align: center;
 }
 
