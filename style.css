@@ -2,9 +2,9 @@
 @import url("stylesheets/topnav.css");
 @import url("stylesheets/blog-style.css");
 @import url("stylesheets/blog-card.css");
+@import url("stylesheets/typography.css");
 
-.body {
-    font-family: Abel;
+body {
     margin: 0px;
 }
 .container {
