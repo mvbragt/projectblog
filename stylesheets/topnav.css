@@ -1,0 +1,28 @@
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+}
+
+ul.topnav li {float: none;
+    display: inline-block;}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #BD5A24;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #25433c;
+    color: white;}
+
+ul.topnav li a.active {color: #192020;}
+
+ul.topnav li.right {float: right;}

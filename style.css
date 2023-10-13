@@ -1,24 +1,27 @@
+/*importing all the stylesheets*/
+@import url("stylesheets/topnav.css");
+@import url("stylesheets/blog-style.css");
+@import url("stylesheets/blog-card.css");
+
 .body {
     font-family: Abel;
+    margin: 0px;
 }
 .container {
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-areas:
         'header header header header header header'
         'navBar navBar navBar navBar navBar navBar'
-        'leftsb main main main main rightsb'
-        'leftsb main main main main rightsb'
-        'leftsb main main main main rightsb'
         'leftsb main main main main rightsb'
         'footer footer footer footer footer footer';
 }
 
 .header {
     grid-area: header;
-    background: url("images/Responsive-scalable-photo-Forrest-at-night-with-moon-header.png 7.jpeg");
+    background: url("projectblog/images/header1.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -48,35 +51,6 @@
     color: white;
     text-align: center;
 }
-
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    text-align: center;
-}
-
-ul.topnav li {float: none;
-    display: inline-block;}
-
-ul.topnav li a {
-    display: inline-block;
-    color: #BD5A24;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-
-}
-
-ul.topnav li a:hover:not(.active) {background-color: #25433c;
-    color: white;}
-
-ul.topnav li a.active {color: #192020;}
-
-ul.topnav li.right {float: right;}
-
 
 @media (max-width:600px) {
     .container {

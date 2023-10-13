@@ -1,0 +1,19 @@
+.card-list {
+    grid-area: cardList;
+    list-style-type: none;
+}
+
+.card {
+    grid-area: cardList;
+    border-radius: 3px;
+    background: #b0bdb0;
+    color: white;
+    padding: 20px;
+    height: 150px;
+    margin: 10px;
+}
+
+.card.not-active {
+    grid-area: cardList;
+    height: 40px;
+}
