@@ -21,7 +21,7 @@ body {
 
 .header {
     grid-area: header;
-    background: url("projectblog/images/header1.png");
+    background: url("projectblog/images/oxygen-nature-header.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
