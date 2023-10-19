@@ -9,8 +9,12 @@
     background: var(--lightGreen);
     color: white;
     padding: 20px;
-    height: 150px;
+    height: auto;
     margin: 10px;
+}
+
+.blog-card {
+    height: 150px;
 }
 
 .card.not-active {

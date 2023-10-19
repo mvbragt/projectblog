@@ -1,8 +1,15 @@
-.blog-grid{
+.form-grid{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: repeat(auto-fit, minmax(500px, 1fr));
     grid-template-areas:
-     "ls cardList cardList rs"
+     "ls form rs"
 }
 
+.form {
+    grid-area: form;
+}
+
+textarea {
+    width: 333px;
+}
