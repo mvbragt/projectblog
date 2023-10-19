@@ -6,7 +6,7 @@
 .card {
     grid-area: cardList;
     border-radius: 3px;
-    background: #b0bdb0;
+    background: var(--lightGreen);
     color: white;
     padding: 20px;
     height: 150px;

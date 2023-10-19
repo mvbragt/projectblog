@@ -2,11 +2,21 @@
 @import url("stylesheets/topnav.css");
 @import url("stylesheets/blog-style.css");
 @import url("stylesheets/blog-card.css");
-@import url("stylesheets/typography.css");
+@import url("typography.css");
 
 body {
     margin: 0px;
 }
+
+:root {
+    --lightGreen: #b0bdb0;
+    --green: #50584C;
+    --darkGreen: #25433c;
+    --blackGreen: #192020;
+    --orange: #BD5A24;
+
+}
+
 .container {
     display: grid;
     justify-content: space-evenly;
@@ -21,14 +31,14 @@ body {
 
 .header {
     grid-area: header;
-    background: url("projectblog/images/oxygen-nature-header.jpeg");
+    background: url("assets/images/oxygen-nature-header.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .navBar {
     grid-area: navBar;
-    border-bottom: 3px solid #50584C;
+    border-bottom: 3px solid var(--green);
     height: max-content;
 }
 
@@ -47,7 +57,7 @@ body {
 
 .footer {
     grid-area: footer;
-    background: #25433c;
+    background: var(--darkGreen);
     color: white;
     text-align: center;
 }

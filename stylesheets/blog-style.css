@@ -2,10 +2,10 @@
 
 .blog-grid{
     display: grid;
-    grid-template-columns: 350px;
+    grid-template-columns: auto;
     grid-template-rows: repeat(auto-fit, minmax(500px, 1fr));
     grid-template-areas:
-     "ls cardList rs"
+     "ls cardList cardList rs"
 }
 
 .scroll {

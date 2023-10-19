@@ -8,21 +8,28 @@ ul.topnav {
     text-align: center;
 }
 
-ul.topnav li {float: none;
-    display: inline-block;}
+ul.topnav li {
+    float: none;
+    display: inline-block;
+}
 
 ul.topnav li a {
     display: inline-block;
-    color: #BD5A24;
+    color: var(--orange);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #25433c;
-    color: white;}
+ul.topnav li a:hover:not(.active) {
+background-color: var(--darkGreen);
+    color: white;
+}
 
-ul.topnav li a.active {color: #192020;}
+ul.topnav li a.active {
+    color: var(--blackGreen);
+}
 
-ul.topnav li.right {float: right;}
+ul.topnav li.right {
+    float: right;
+}
