@@ -1,9 +1,9 @@
 /*importing all the stylesheets*/
-@import url("stylesheets/topnav.css");
-@import url("stylesheets/blog-style.css");
-@import url("stylesheets/cards.css");
+@import url("topnav.css");
+@import url("blog-style.css");
+@import url("cards.css");
 @import url("typography.css");
-@import url("stylesheets/form.css");
+@import url("form.css");
 
 body {
     margin: 0px;
@@ -31,7 +31,7 @@ body {
 
 .header {
     grid-area: header;
-    background: url("assets/images/oxygen-nature-header.jpeg");
+    background: url("projectblog/assets/oxygen-nature-header.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
