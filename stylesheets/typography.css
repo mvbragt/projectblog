@@ -4,15 +4,18 @@ body {
 
 h1 {
     font-size: 4.5em;
+    font-weight: bolder;
 }
 
 h2 {
     font-size: 3em;
+    font-style: italic;
 }
 
 h3 {
     font-size: 2.25em;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 h4 {
@@ -23,14 +26,18 @@ h5 {
     font-size: 1.25em;
 }
 
-p {
-    font-size: 1em;
-}
-
 a {
     font-size: 1.25em;
     color: white;
 }
 
-form
+p {
+    font-size: 1em;
+}
+
+figcaption {
+    font-size: 0.875em;
+
+}
+
 

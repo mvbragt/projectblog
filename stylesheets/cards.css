@@ -1,5 +1,7 @@
 .card-list {
     grid-area: cardList;
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
 }
 
