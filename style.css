@@ -34,6 +34,8 @@ body {
     background: url("assets/images/oxygen-nature-header.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
+    text-align: left;
 }
 
 .navBar {
