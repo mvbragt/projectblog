@@ -22,4 +22,9 @@
     height: 40px;
 }
 
+.card.sign-in-card {
+    width: fit-content;
+    background: var(--darkGreen);
+}
+
 

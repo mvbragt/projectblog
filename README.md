@@ -1,5 +1,5 @@
 -----------------------------------------
-README - Personal Blog (HTML & CSS)
+README - Personal Blog - Life's Ascent  (HTML & CSS)
 -----------------------------------------
 Welcome to your Personal Blog project! This blog is built using only HTML and CSS, making it lightweight and easy to customize.
 Quick Start:
@@ -11,18 +11,19 @@ Add new blog posts by creating additional HTML files in the "pages" directory.
 
 Project Structure:
 index.html: The main entry point for your blog.
-pages/ directory: Contains HTML files for your blog posts.
+directory: Contains HTML files for your blog posts.
 style.css: The CSS file for styling your blog.
-images/ directory: Store images used in your blog posts here.
+stylesheets directory: here you find the different stylesheets that are imported in the styles.css
+assets & images/ directory: Store images, svgs used in your blog posts here.
 
 Design:
-To see the designs I made, look at the figma I created:
+To see the designs are used, look at the figma I created:
 https://www.figma.com/file/Y6F5bBCpFzxkoVf9lpedwW/udacity-project-1---blog?node-id=0%3A1&mode=dev
 
 Customization:
-To change the look of your blog, edit the "style.css" file. You can modify fonts, colors, and layout.
-To add new content, create HTML files in the "pages" directory. Make sure to follow the structure of existing posts.
-Update the navigation menu in the "index.html" file to link to your new blog posts.
+To change the look of the blog, edit the different css files. You can modify fonts, colors, and layout.
+To add new content, create HTML files in the directory. Make sure to follow the structure of existing posts.
+
 Deployment:
 To publish your blog online, you can use hosting services like GitHub Pages. Simply upload your project files.
 
