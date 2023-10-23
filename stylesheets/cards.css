@@ -17,7 +17,9 @@
     height: 150px;
 }
 
-.card.not-active {
+.blog-card.not-active {
     grid-area: cardList;
     height: 40px;
 }
+
+
